@@ -41,6 +41,10 @@ end)
 MainAdmin:NewButton("Flight", "Up up up!", function()
     loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Fly.txt"))()
 end)
+-- Infinite Yield
+MainAdmin:NewButton("Infinite Yield", "Gives you admin commands or whatever.", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source%27))()
+end)
 -- Dex
 MainAdmin:NewButton("Dex Explorer", "Allows you to see through the game's models & scripts", function()
     loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
